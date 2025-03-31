@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+	<html>
+		<head>
+            <title>Однорукий бандит</title>
+            <link rel="stylesheet" href="css/style.css" type="text/css"/>
+        </head>
+		<body>
+            <H1>Однорукий бандит</H1>
+            <table>
+                <tr>
+                    <td>
+                        <img src="1.png" id="pic1">
+                    </td>
+                    <td>
+                        <img src="2.png" id="pic2">
+                    </td>
+                    <td>
+                        <img src="3.png" id="pic3">
+                    </td>
+                    <td>
+                        <img src="lever_up.png" 
+                        onmouseout='pic1.src=String(Math.floor(Math.random()*8)+1)+".png";pic2.src=String(Math.floor(Math.random()*8)+1)+".png";pic3.src=String(Math.floor(Math.random()*8)+1)+".png";this.src="lever_up.png"'
+                        onmouseover='this.src="lever_down.png"' >
+                    </td>
+                </tr>
+            </table>
+		</body>
+    </html>

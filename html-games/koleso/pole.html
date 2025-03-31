@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+            <title>Поле чудес</title>
+            <link rel="stylesheet" href="css/style.css" type="text/css"/>
+        </head>
+		<body>
+            <H1>Поле чудес</H1>
+            <table>
+                <tr>
+                    <td>
+                        <img src="wheel.gif" onclick="this.src='wheel.png'; priz.src=String(Math.floor(Math.random()*6+1))+'.jpg'" onmouseout="this.src='wheel.gif'; priz.src='blank.png'">
+                    </td>
+                    <td >   
+                        <img src="blank.png" id="priz">
+                    </td>
+                </tr>
+            </table>
+		</body>
+    </html>

@@ -1,0 +1,31 @@
+﻿body{
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+em{
+    color:red;
+    font-style: normal;
+}
+
+table{
+    width: 1000px;
+    text-align:center;
+    vertical-align:middle;
+    
+}
+h3{
+    text-align:justify;
+    color:red;
+}
+.bl{
+    color:black;
+    font-variant: small-caps;
+}
+.cent{
+    text-align: center;
+}
+td{
+	
+	vertical-align:top;
+}

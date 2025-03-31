@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Морской бой</title>
+        <link rel="stylesheet"  href="css/style.css" type="text/css"/>
+    </head>
+    <body>
+        <h1>Морской бой</h1>
+        <h2>Выберите корабль:</h2>
+        <table>
+            <tr>
+                <td><img src="img/ship1.jpg" width=150 height=150 onclick="selImg.src=this.src; selText.innerHTML=txt1.innerHTML"></td>
+                <td><img src="img/ship2.jpg" width=150 height=150 onclick="selImg.src=this.src; selText.innerHTML=txt2.innerHTML"></td>
+                <td><img src="img/ship3.png" width=150 height=150 onclick="selImg.src=this.src; selText.innerHTML=txt3.innerHTML"></td>
+                <td><img src="img/ship4.jpg" width=150 height=150 onclick="selImg.src=this.src; selText.innerHTML=txt4.innerHTML"></td>
+            </tr>
+            <tr>
+                <td id="txt1">Парусник</td>
+                <td id="txt2">Авианосец</td>
+                <td id="txt3">Эсминец</td>
+                <td id="txt4">Подводная лодка</td>
+            </tr>
+        </table>
+        <h2>Вы выбрали:</h2>
+        <table>
+            <tr>
+                <td><img src="img/fon.png" width=150 height=150 id="selImg"></td>
+            </tr>
+            <tr>
+                <td id="selText">Вы не выбрали корабль!</td>
+            </tr>
+        </table>
+        <h2>Расставьте корабли на поле:</h2>
+        <table>
+            <tr>
+                <th> </th>
+                <th>А</th>
+                <th>Б</th>
+                <th>В</th>
+                <th>Г</th>
+                <th>Д</th>
+                <th>Е</th>
+                <th>Ж</th>
+                <th>З</th>
+                <th>И</th>
+                <th>К</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+            </tr>
+            <tr>
+                <th>4</th>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+            </tr>
+            <tr>
+                <th>5</th>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+            </tr>
+            <tr>
+                <th>6</th>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+            </tr>
+            <tr>
+                <th>7</th>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+            </tr>
+            <tr>
+                <th>8</th>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+            </tr>
+            <tr>
+                <th>9</th>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+            </tr>
+            <tr>
+                <th>10</th>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+                <td><img src="img/fon.png" onclick="this.src=selImg.src; this.width=50; this.height=50" ondblclick="this.src='img/fire.jpg'; this.width=50; this.height=50"></td>
+            </tr>
+        </table>
+    </body>
+</html>
